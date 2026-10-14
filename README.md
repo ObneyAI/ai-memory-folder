@@ -1,42 +1,85 @@
+---
+author: Codex
+updated: 2026-10-14
+---
+
 # AI Memory Folder
 
-A starter kit for a personal AI assistant with memory you own. Your notes live in one folder on your computer. Any AI tool that can open the folder can read them.
+A personal assistant kit from [obney.ai](https://obney.ai).
+Keep useful facts in notes that you can read and change.
 
-Made by [obney.ai](https://obney.ai) for the Personal AI Assistant workshop.
+## Start with your agent
 
-## What's in the kit
+Give this page’s URL to an assistant that can write files.
+For a branch preview, use that branch’s page URL.
+Say:
 
-| Path | What it is |
+> Create my AI Memory folder from this URL: [paste this page’s URL]. Start setup with me.
+
+The assistant selects the version for your app.
+It copies three or four files into your private workspace.
+It then asks the first setup question.
+You can give it an existing empty folder or ask it to make one.
+
+**For agents:** Read [INSTALL.md](INSTALL.md) before you write files.
+Keep the revision from the owner’s URL.
+Use [manifest.json](manifest.json) for the exact source files and their SHA-256 digests.
+Keep existing notes and owner changes.
+
+## Manual download
+
+Download one kit for the tool that you use.
+
+| Tool | Guide | Download | Starting files |
+|---|---|---|---:|
+| Claude | [Claude](claude/README.md) | [ZIP](claude/ai-memory.zip) | 4 |
+| Codex or local ChatGPT Work | [ChatGPT](chatgpt/README.md) | [ZIP](chatgpt/ai-memory.zip) | 3 |
+| Grok Bot | [Grok Bot](grokbot/README.md) | [ZIP](grokbot/ai-memory.zip) | 3 |
+
+Each ZIP contains one AI Memory folder.
+That folder has no subfolders at the start.
+The Claude kit adds a pointer file for Claude Code.
+
+## First sessions
+
+1. Let your agent start setup, or follow Start Here after a manual download.
+2. Complete the short interview.
+3. Read your saved About Me note.
+4. Use that note to complete one real task.
+5. Start a new session with the same folder.
+
+The assistant uses the saved information in the new session.
+You examine the notes before setup ends.
+
+## Files
+
+| File | Purpose |
 |---|---|
-| `AI Memory/` | The folder you keep. Copy this one. |
-| `AI Memory/Start Here.md` | Plain-language guide for the owner |
-| `AI Memory/AGENTS.md` | The one instructions file for any assistant |
-| `AI Memory/CLAUDE.md` | Points to AGENTS.md. Nothing else. |
-| `AI Memory/Workflows/` | Interview Me, Morning Check, Save Meeting Notes, Reflect, plus two copy-and-paste prompts |
-| `AI Memory/Templates/` | Daily Note, Meeting Note, Person, Organization, About Me, Area, Workflow |
-| `Setup/` | Text to paste into Claude's settings, and a note about sync for later |
-| `Skills/` | Optional. Two small skills that give you `/reflect` and `/interview-me` |
+| AGENTS.md | Lasting instructions, note formats, and rules for folder growth |
+| Start Here.md | Instructions for the owner |
+| _setup.md | Setup checklist and progress between sessions |
+| CLAUDE.md | Claude Code pointer, in the Claude kit only |
 
-## Set it up (about 15 minutes)
+After the completion check, the assistant moves useful setup information into lasting notes.
+It then removes _setup.md.
+It updates Start Here to describe your actual notes.
 
-1. **Get the kit.** On GitHub, press the green **Code** button, then **Download ZIP**. Open the ZIP.
-2. **Move the folder.** Drag `AI Memory` into your Documents folder. If your Documents folder already syncs to iCloud or OneDrive, that is your one sync tool. Don't add another. See `Setup/Later - Sync.md`.
-3. **Make a Cowork project.** Open the Claude desktop app. In Cowork, open **Projects**, press **+**, and choose **Use an existing folder**. Pick your `AI Memory` folder.
-4. **Point the project at the instructions.** Paste the line from `Setup/Cowork Project Instruction.txt` into the project's Instructions.
-5. **Tell Claude chat about the folder.** Paste the text from `Setup/Claude Custom Instruction.txt` into **Settings**, under **Instructions for Claude**.
-6. **Optional: add the skills.** In the Claude app, open **Customize**, then **Skills**, and upload `Skills/reflect.zip` and `Skills/interview-me.zip`. You can skip this. The same phrases work without them.
-7. **Start.** In your AI Memory project, say **"interview me"**.
+## Folder growth
 
-## How it works
+Use these file counts as check points.
 
-- **The folder owns the facts.** Claude's built-in memory is a helper. The weekly Reflect moves what's worth keeping into the folder and prunes the rest.
-- **One instructions file.** AGENTS.md holds the rules. CLAUDE.md and the Cowork project instruction only point to it. Two full copies drift apart.
-- **Workflows are notes.** Each one is a plain-language note in `Workflows/`. The skills only point to those notes, so there's one version of each.
-- **Nothing goes out without a yes.** The assistant drafts. The owner approves.
+| Stage | Approximate file count | Result |
+|---|---:|---|
+| Start | 3–4 | Instructions and setup |
+| First useful sessions | 7–10 | A profile and notes for real work |
+| First repeated tasks | 12–13 | More work notes and useful saved procedures |
 
-## For whoever maintains this kit
+The assistant creates each folder when its first note is necessary.
+It does not create an empty folder plan.
+History can continue to grow after these check points.
 
-- Keep the kit free of anyone's real content. Client copies are made from it, never the other way around.
-- People copy the folder once. Their copy is not connected to this repo, and shouldn't be.
-- After editing a skill, rebuild its ZIP: `cd Skills && zip -r reflect.zip reflect`.
-- Write for a non-technical owner: short sentences, plain words, no em dashes.
+## Maintainers
+
+Use [MAINTAINERS.md](MAINTAINERS.md) for changes and package checks.
+Use [STYLE.md](STYLE.md) for ASD-STE100 rules and kit terms.
+Use [VERIFICATION.md](VERIFICATION.md) for evidence and pilot status.

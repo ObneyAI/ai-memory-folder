@@ -1,5 +1,0 @@
-Where this goes: in Cowork, open your AI Memory project's settings and paste the text below the line into Instructions. Keep it to this one line. All the real rules live in AGENTS.md, in your folder.
-
------ copy from here -----
-
-Read AGENTS.md in this folder before anything else, and follow it.
