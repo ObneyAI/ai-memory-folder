@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kit_id": "obney-ai-memory",
-  "kit_version": "0.3.1",
+  "kit_version": "0.4.0",
   "versions": {
     "claude": {
       "directory": "claude/AI Memory",
@@ -9,14 +9,14 @@
         {
           "name": "AGENTS.md",
           "source": "claude/AI Memory/AGENTS.md",
-          "sha256": "66afd31aef24bf251840b997312d30acd652be6a42c9dd8c37442081b1d22b16",
-          "bytes": 14983
+          "sha256": "2e6b2896578e8ba1ff739e48fefe52d64d97501d73cf19c79a8b45c57a3b7b00",
+          "bytes": 14298
         },
         {
           "name": "About This Folder.md",
           "source": "claude/AI Memory/About This Folder.md",
-          "sha256": "6439b4be1edf0cc89be61a98019127da7adc91b000e9a0b71594fdfe03fda8a0",
-          "bytes": 8358
+          "sha256": "b2648a1fc8f759bdc1867b592233fea91d4305c35b2bd8e38ec562cb34e865c2",
+          "bytes": 8343
         },
         {
           "name": "CLAUDE.md",
@@ -33,8 +33,8 @@
         {
           "name": "_setup.md",
           "source": "claude/AI Memory/_setup.md",
-          "sha256": "c2eb0e593816b186b2eaec29bb03158fc60f883cea8f9c776c40dfc361dd6d1c",
-          "bytes": 4038
+          "sha256": "ab4cab9a05fd90fb1d8b32a10b13deb7470b44496cbba80493ac77277c2c8667",
+          "bytes": 4033
         }
       ]
     },
@@ -44,14 +44,14 @@
         {
           "name": "AGENTS.md",
           "source": "chatgpt/AI Memory/AGENTS.md",
-          "sha256": "3205f703dc83e3663b69ad4739d8e8a0221b3976c39cf825f2f10f159c2426ab",
-          "bytes": 15119
+          "sha256": "15292874c32b6c1b51320181a2cf2f6ed49955562fb96e211e1f8da6d985786e",
+          "bytes": 14434
         },
         {
           "name": "About This Folder.md",
           "source": "chatgpt/AI Memory/About This Folder.md",
-          "sha256": "6439b4be1edf0cc89be61a98019127da7adc91b000e9a0b71594fdfe03fda8a0",
-          "bytes": 8358
+          "sha256": "b2648a1fc8f759bdc1867b592233fea91d4305c35b2bd8e38ec562cb34e865c2",
+          "bytes": 8343
         },
         {
           "name": "Start Here.md",
@@ -62,8 +62,8 @@
         {
           "name": "_setup.md",
           "source": "chatgpt/AI Memory/_setup.md",
-          "sha256": "c2eb0e593816b186b2eaec29bb03158fc60f883cea8f9c776c40dfc361dd6d1c",
-          "bytes": 4038
+          "sha256": "ab4cab9a05fd90fb1d8b32a10b13deb7470b44496cbba80493ac77277c2c8667",
+          "bytes": 4033
         }
       ]
     },
@@ -73,14 +73,14 @@
         {
           "name": "AGENTS.md",
           "source": "grokbot/AI Memory/AGENTS.md",
-          "sha256": "ef564cf0ab2e3852c33955c532656d5d8300a8826d174eb471fa981ee565c56b",
-          "bytes": 15911
+          "sha256": "f736cd37ec731d695c458730f8137a494018ae1ce30ed8b01dd4669d21355ecb",
+          "bytes": 15226
         },
         {
           "name": "About This Folder.md",
           "source": "grokbot/AI Memory/About This Folder.md",
-          "sha256": "6439b4be1edf0cc89be61a98019127da7adc91b000e9a0b71594fdfe03fda8a0",
-          "bytes": 8358
+          "sha256": "b2648a1fc8f759bdc1867b592233fea91d4305c35b2bd8e38ec562cb34e865c2",
+          "bytes": 8343
         },
         {
           "name": "Start Here.md",
@@ -91,8 +91,8 @@
         {
           "name": "_setup.md",
           "source": "grokbot/AI Memory/_setup.md",
-          "sha256": "c2eb0e593816b186b2eaec29bb03158fc60f883cea8f9c776c40dfc361dd6d1c",
-          "bytes": 4038
+          "sha256": "ab4cab9a05fd90fb1d8b32a10b13deb7470b44496cbba80493ac77277c2c8667",
+          "bytes": 4033
         }
       ]
     }

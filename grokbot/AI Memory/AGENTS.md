@@ -2,7 +2,7 @@
 author: Codex
 kit_id: obney-ai-memory
 kit_variant: grokbot
-kit_version: 0.3.1
+kit_version: 0.4.0
 updated: 2026-10-25
 source: Claude Code kit; Grok Bot kit; Codex kit; Justin’s progressive setup design
 ---
@@ -110,7 +110,7 @@ Do not create empty folders or blank notes to reach a file count.
 | `People/Name.md` | The owner wants a record for a person | Relationship, context, last contact, open items |
 | `Organizations/Name.md` | The owner wants a record for a group | Relationship, contacts, context, open items |
 | `Where Things Are.md` | The owner agrees how and where they save files | Main folders, naming rules, agreed changes, file moves |
-| `How I'm Set Up.md` | You learn the first lasting fact about the owner's setup | Folders, Connectors, Credential names, Email and calendar, Routines, Still open |
+| `Setup Map.md` | You learn the first lasting fact about the owner's setup | Folders, Connectors, Credential names, Routines, Still open |
 | `Inbox/Date - Topic.md` | Material must wait for review | Source, supplied notes, next action |
 | `Log/Daily/Date.md` | There is daily work to record | Today, Notes, Meetings, Done |
 | `Log/Meetings/Date - Topic.md` | The owner supplies meeting information | Participants, source, decisions, actions, open questions |
@@ -142,40 +142,25 @@ Do not delete owner files.
 
 ## Keep the setup map
 
-`How I'm Set Up.md` is the setup map.
-It shows how the owner's folders, apps, accounts, and routines are set up.
-A later helper, such as a coach, can read it instead of past chats.
-Keep it short enough to scan.
-
-Create the setup map when you learn the first lasting setup fact.
-Update it when a fact in the map changes.
-Use these headings: Folders, Connectors, Credential names, Email and calendar, Routines, and Still open.
+`Setup Map.md` shows how the owner's folders, apps, accounts, and routines are set up.
+A later helper can read it instead of past chats.
+Create it when you learn the first lasting setup fact.
+Update it when setup facts change.
+Use these headings: Folders, Connectors, Credential names, Routines, and Still open.
 Leave out empty sections.
-Do not add rows for facts that you did not learn.
 
-Under Folders, record each AI Memory path and its sync service.
-If the folder has more than one copy, record the computer for each copy.
-Link to Where Things Are for file organization when that note exists.
-Do not copy its folder lists into the setup map.
+For each folder copy, record the computer, path, and sync service.
+For file organization, link to `Where Things Are.md` when that note exists.
 
-Under Connectors, give each app connection one row.
-Use these columns: Service, Account, Purpose, Status, and Checked.
-Use the owner's label for the account, such as "work" or an email address.
-Use one of these statuses: connected, read-only, drafts only, or needs sign-in.
-Under Email and calendar, record each mailbox and calendar that you can use.
+For each connector, record the service, account, purpose, allowed actions, and connection state.
+Include mailboxes and calendars under Connectors, with their individual names and permitted scope.
+Keep the allowed actions when the connection state changes.
+Record a fact only after you examine it or the owner confirms it.
+For each connector, record the check date and "examined" or "owner confirmed".
 
-Under Credential names, record only the name of each saved login and where it is kept.
-For example: "Bank login, in 1Password."
-Never write a password, access code, token, card number, or other secret value in the folder.
-If the owner gives you a secret value, do not save it.
-Tell the owner that you did not save it.
-
-Under Routines, record the name, schedule, and the notes and apps that each routine uses.
+Record credential names and their location, never secret values.
+For each routine, record its name, schedule, timezone, destination, and the notes and apps it uses.
 Under Still open, record items that the owner skipped or refused.
-
-Record a connection only after you examine it or the owner confirms it.
-In the Checked column, write the date and "examined" or "owner confirmed".
-The owner can read and change every line.
 If the owner changes a line, use their version.
 
 ## Interview me

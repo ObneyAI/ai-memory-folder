@@ -10,7 +10,7 @@ The assistant updates the checklist after it examines each result.
 The owner can stop at any step.
 
 Some steps find folder paths, app connections, accounts, or routines.
-Record each accepted fact in `How I'm Set Up.md`.
+Record each accepted fact in `Setup Map.md`.
 Use the setup map procedure in AGENTS.md.
 You do not need to fill every section during setup.
 

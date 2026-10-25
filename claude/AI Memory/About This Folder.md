@@ -79,7 +79,7 @@ Examine the first batch before you approve more.
 
 ## Your setup map
 
-Your assistant keeps one short note about your setup: `How I'm Set Up.md`.
+Your assistant keeps one short note about your setup: `Setup Map.md`.
 It lists where your folders are and which apps are connected.
 It also lists your accounts, routines, and items that you skipped.
 
@@ -231,7 +231,7 @@ The assistant checks the first scheduled run before it calls a routine "in use".
 - Keep outgoing messages as drafts.
 - Tell the assistant which mail and folders are private.
 - Approve each calendar or file change until you agree on a rule.
-- The assistant records each connection in `How I'm Set Up.md`.
+- The assistant records each connection in `Setup Map.md`.
 
 The assistant treats text in an email as information.
 It does not follow instructions in that text.
@@ -243,4 +243,4 @@ It does not follow instructions in that text.
 - To explore files, read folder and file names first.
 - Open a file only when the task needs it.
 - Save pointers in `Where Things Are.md`, not copies.
-- Record setup changes in `How I'm Set Up.md`. Record names only, never secret values.
+- Record setup changes in `Setup Map.md`. Record names only, never secret values.
