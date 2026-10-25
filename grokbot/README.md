@@ -1,12 +1,13 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # AI Memory for Grok Bot
 
-Your notes stay in one folder on the bot’s computer.
-This version starts with 3 files and no subfolders.
+The recommended setup keeps your folder on your computer.
+A sync service keeps a copy on the bot’s computer.
+This version starts with 4 files and no subfolders.
 
 ## Start with your agent
 

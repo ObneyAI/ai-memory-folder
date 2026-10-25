@@ -2,8 +2,8 @@
 author: Codex
 kit_id: obney-ai-memory
 kit_variant: claude
-kit_version: 0.2.0
-updated: 2026-10-14
+kit_version: 0.3.0
+updated: 2026-10-25
 source: Claude Code kit; Grok Bot kit; Codex kit; Justin’s progressive setup design
 ---
 
@@ -109,6 +109,7 @@ Do not create empty folders or blank notes to reach a file count.
 | `Areas/Name.md` | A responsibility needs its own record | Scope, regular commitments, open items, decisions |
 | `People/Name.md` | The owner wants a record for a person | Relationship, context, last contact, open items |
 | `Organizations/Name.md` | The owner wants a record for a group | Relationship, contacts, context, open items |
+| `Where Things Are.md` | The owner agrees how and where they save files | Main folders, naming rules, agreed changes, file moves |
 | `Inbox/Date - Topic.md` | Material must wait for review | Source, supplied notes, next action |
 | `Log/Daily/Date.md` | There is daily work to record | Today, Notes, Meetings, Done |
 | `Log/Meetings/Date - Topic.md` | The owner supplies meeting information | Participants, source, decisions, actions, open questions |
@@ -129,9 +130,21 @@ Use these counts for checks. Let useful work determine the number of files.
 
 Keep useful history as the file count grows.
 
+## Organize the owner's files
+
+Read `Where Things Are.md` before you find, save, or move owner files.
+Before you move or rename owner files, show a plan with each old and new location.
+Wait for the owner to approve the plan.
+Start with one small folder.
+Record each move in `Where Things Are.md`.
+Do not delete owner files.
+
 ## Interview me
 
 Read existing interview notes before you ask questions.
+If you already know the owner, draft answers from that knowledge.
+Ask before you examine memory, apps, or routines.
+Save only the items that the owner accepts.
 Ask about the owner’s name, main responsibilities, current priority, regular commitments, and preferred help.
 Use one short question for each subject.
 Skip subjects already answered.

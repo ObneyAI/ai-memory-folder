@@ -9,7 +9,7 @@ import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
-SEEDS = {"AGENTS.md", "Start Here.md", "_setup.md"}
+SEEDS = {"AGENTS.md", "Start Here.md", "_setup.md", "About This Folder.md"}
 VERSIONS = {"claude": SEEDS | {"CLAUDE.md"}, "chatgpt": SEEDS, "grokbot": SEEDS}
 
 
@@ -30,7 +30,7 @@ def prose_sentences(text):
 
 
 def main():
-    manifest = {"schema_version": 1, "kit_id": "obney-ai-memory", "kit_version": "0.2.0", "versions": {}}
+    manifest = {"schema_version": 1, "kit_id": "obney-ai-memory", "kit_version": "0.3.0", "versions": {}}
     for version, names in VERSIONS.items():
         folder = ROOT / version / "AI Memory"
         actual = {p.name for p in folder.iterdir()}

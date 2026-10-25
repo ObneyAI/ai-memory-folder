@@ -1,6 +1,6 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # AI Memory Folder
@@ -17,7 +17,7 @@ Say:
 > Create my AI Memory folder from this URL: [paste this page’s URL]. Start setup with me.
 
 The assistant selects the version for your app.
-It copies three or four files into your private workspace.
+It copies four or five files into your private workspace.
 It then asks the first setup question.
 You can give it an existing empty folder or ask it to make one.
 
@@ -32,9 +32,9 @@ Download one kit for the tool that you use.
 
 | Tool | Guide | Download | Starting files |
 |---|---|---|---:|
-| Claude | [Claude](claude/README.md) | [ZIP](claude/ai-memory.zip) | 4 |
-| Codex or local ChatGPT Work | [ChatGPT](chatgpt/README.md) | [ZIP](chatgpt/ai-memory.zip) | 3 |
-| Grok Bot | [Grok Bot](grokbot/README.md) | [ZIP](grokbot/ai-memory.zip) | 3 |
+| Claude | [Claude](claude/README.md) | [ZIP](claude/ai-memory.zip) | 5 |
+| Codex or local ChatGPT Work | [ChatGPT](chatgpt/README.md) | [ZIP](chatgpt/ai-memory.zip) | 4 |
+| Grok Bot | [Grok Bot](grokbot/README.md) | [ZIP](grokbot/ai-memory.zip) | 4 |
 
 Each ZIP contains one AI Memory folder.
 That folder has no subfolders at the start.
@@ -58,6 +58,7 @@ You examine the notes before setup ends.
 | AGENTS.md | Lasting instructions, note formats, and rules for folder growth |
 | Start Here.md | Instructions for the owner |
 | _setup.md | Setup checklist and progress between sessions |
+| About This Folder.md | What the folder is, where you save things, and ideas to try |
 | CLAUDE.md | Claude Code pointer, in the Claude kit only |
 
 After the completion check, the assistant moves useful setup information into lasting notes.
@@ -70,7 +71,7 @@ Use these file counts as check points.
 
 | Stage | Approximate file count | Result |
 |---|---:|---|
-| Start | 3–4 | Instructions and setup |
+| Start | 4–5 | Instructions, setup, and a guide to the folder |
 | First useful sessions | 7–10 | A profile and notes for real work |
 | First repeated tasks | 12–13 | More work notes and useful saved procedures |
 
