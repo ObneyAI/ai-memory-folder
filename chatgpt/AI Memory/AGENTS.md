@@ -2,7 +2,7 @@
 author: Codex
 kit_id: obney-ai-memory
 kit_variant: chatgpt
-kit_version: 0.3.0
+kit_version: 0.4.0
 updated: 2026-10-25
 source: Claude Code kit; Grok Bot kit; Codex kit; Justin’s progressive setup design
 ---
@@ -110,6 +110,7 @@ Do not create empty folders or blank notes to reach a file count.
 | `People/Name.md` | The owner wants a record for a person | Relationship, context, last contact, open items |
 | `Organizations/Name.md` | The owner wants a record for a group | Relationship, contacts, context, open items |
 | `Where Things Are.md` | The owner agrees how and where they save files | Main folders, naming rules, agreed changes, file moves |
+| `Setup Map.md` | You learn the first lasting fact about the owner's setup | Folders, Connectors, Credential names, Routines, Still open |
 | `Inbox/Date - Topic.md` | Material must wait for review | Source, supplied notes, next action |
 | `Log/Daily/Date.md` | There is daily work to record | Today, Notes, Meetings, Done |
 | `Log/Meetings/Date - Topic.md` | The owner supplies meeting information | Participants, source, decisions, actions, open questions |
@@ -138,6 +139,29 @@ Wait for the owner to approve the plan.
 Start with one small folder.
 Record each move in `Where Things Are.md`.
 Do not delete owner files.
+
+## Keep the setup map
+
+`Setup Map.md` shows how the owner's folders, apps, accounts, and routines are set up.
+A later helper can read it instead of past chats.
+Create it when you learn the first lasting setup fact.
+Update it when setup facts change.
+Use these headings: Folders, Connectors, Credential names, Routines, and Still open.
+Leave out empty sections.
+
+For each folder copy, record the computer, path, and sync service.
+For file organization, link to `Where Things Are.md` when that note exists.
+
+For each connector, record the service, account, purpose, allowed actions, and connection state.
+Include mailboxes and calendars under Connectors, with their individual names and permitted scope.
+Keep the allowed actions when the connection state changes.
+Record a fact only after you examine it or the owner confirms it.
+For each connector, record the check date and "examined" or "owner confirmed".
+
+Record credential names and their location, never secret values.
+For each routine, record its name, schedule, timezone, destination, and the notes and apps it uses.
+Under Still open, record items that the owner skipped or refused.
+If the owner changes a line, use their version.
 
 ## Interview me
 
@@ -260,6 +284,7 @@ Keep one working folder for the owner’s notes.
 Find out whether that folder already uses a sync service before you add one.
 Use only one sync service for the folder.
 Do not assume that chat sync copies local files.
+Record each folder path and the sync service in the setup map.
 
 Examine the destination before you copy personal notes.
 Make sure that the copy is complete before you report success.
@@ -271,6 +296,7 @@ If copies conflict, keep their unique content until the owner agrees on a merged
 Remove `_setup.md` only after the owner accepts the setup completion check.
 First, save all accepted facts and lasting preferences outside `_setup.md`.
 Resolve or move every unfinished setup item.
+Record skipped setup items under Still open in the setup map.
 Keep the growth plan and core procedures in this file.
 
 Update Start Here with links to notes that actually exist.
