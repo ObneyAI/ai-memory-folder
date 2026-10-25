@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kit_id": "obney-ai-memory",
-  "kit_version": "0.2.0",
+  "kit_version": "0.3.0",
   "versions": {
     "claude": {
       "directory": "claude/AI Memory",
@@ -9,8 +9,14 @@
         {
           "name": "AGENTS.md",
           "source": "claude/AI Memory/AGENTS.md",
-          "sha256": "57bd59cf517a3ebeb9b75222fc4587b31e6e92eb4b89512be0e85b7f46f7f439",
-          "bytes": 12228
+          "sha256": "5453a5bdf7f8c4ae6ef092d7f0cbfbe65a75f58f33b82d00a72209ec5428d477",
+          "bytes": 12520
+        },
+        {
+          "name": "About This Folder.md",
+          "source": "claude/AI Memory/About This Folder.md",
+          "sha256": "b459ef17b3701139bf9564f90b406d99d33dc283a969c9a0a44ce9fc71abee58",
+          "bytes": 7501
         },
         {
           "name": "CLAUDE.md",
@@ -21,14 +27,14 @@
         {
           "name": "Start Here.md",
           "source": "claude/AI Memory/Start Here.md",
-          "sha256": "130447fb33ac88d8d831af091dc82c034b6613e2d54ae90990dde644b4ce5401",
-          "bytes": 1154
+          "sha256": "89c09d1fb4a97e088db95bc63eefdee62e73ab66098a3e30add736f65d79cc65",
+          "bytes": 1216
         },
         {
           "name": "_setup.md",
           "source": "claude/AI Memory/_setup.md",
-          "sha256": "5ac353aa3fe88bd28581cd28d93d7e23370a781aec85555c56fc99988bb97389",
-          "bytes": 2629
+          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
+          "bytes": 3485
         }
       ]
     },
@@ -38,20 +44,26 @@
         {
           "name": "AGENTS.md",
           "source": "chatgpt/AI Memory/AGENTS.md",
-          "sha256": "be6e020dd967c4e3a63b43d4343e9540cd82d91fde7ce0dc0bd03e9ea65288a7",
-          "bytes": 12364
+          "sha256": "ac45dac058e238019d8ec36e578a468f27b20207f4dfeba3b43bc052a69749cc",
+          "bytes": 12656
+        },
+        {
+          "name": "About This Folder.md",
+          "source": "chatgpt/AI Memory/About This Folder.md",
+          "sha256": "b459ef17b3701139bf9564f90b406d99d33dc283a969c9a0a44ce9fc71abee58",
+          "bytes": 7501
         },
         {
           "name": "Start Here.md",
           "source": "chatgpt/AI Memory/Start Here.md",
-          "sha256": "cc8f17ee49c28b1bcab82bee0ee457659ce19187cf05493192b40d892d8815cc",
-          "bytes": 1238
+          "sha256": "e330a049ba4ac79b98ad3fa590d7b19636be85208d076d8d14b1c471cd645952",
+          "bytes": 1300
         },
         {
           "name": "_setup.md",
           "source": "chatgpt/AI Memory/_setup.md",
-          "sha256": "5ac353aa3fe88bd28581cd28d93d7e23370a781aec85555c56fc99988bb97389",
-          "bytes": 2629
+          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
+          "bytes": 3485
         }
       ]
     },
@@ -61,20 +73,26 @@
         {
           "name": "AGENTS.md",
           "source": "grokbot/AI Memory/AGENTS.md",
-          "sha256": "4603b17ad6c5b4d058af24761e728e6b2a19e26d2763e39017c5f8bddaaf94e8",
-          "bytes": 12762
+          "sha256": "de21e5a9ea642daedafefe0bf5505955c8a66069a7368a324624299ae18f8c07",
+          "bytes": 13212
+        },
+        {
+          "name": "About This Folder.md",
+          "source": "grokbot/AI Memory/About This Folder.md",
+          "sha256": "b459ef17b3701139bf9564f90b406d99d33dc283a969c9a0a44ce9fc71abee58",
+          "bytes": 7501
         },
         {
           "name": "Start Here.md",
           "source": "grokbot/AI Memory/Start Here.md",
-          "sha256": "ae2180ff7793ddde9b9cd79042f49d5b3ce01fbfacf502ccd7be488ef98e4f5d",
-          "bytes": 1334
+          "sha256": "12c81c73de246ecc6e114e2f43b0de3680db9a86dde59158a4a7da9840fa03a5",
+          "bytes": 1480
         },
         {
           "name": "_setup.md",
           "source": "grokbot/AI Memory/_setup.md",
-          "sha256": "5ac353aa3fe88bd28581cd28d93d7e23370a781aec85555c56fc99988bb97389",
-          "bytes": 2629
+          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
+          "bytes": 3485
         }
       ]
     }

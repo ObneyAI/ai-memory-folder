@@ -1,6 +1,6 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # Start Here
@@ -47,6 +47,7 @@ The assistant uses your saved notes.
 
 ## Files
 
+About This Folder explains the folder and gives ideas to try.
 AGENTS.md contains lasting instructions for the assistant.
 _setup.md records setup progress.
 After your completion check, the assistant removes _setup.md.

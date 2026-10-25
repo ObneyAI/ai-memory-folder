@@ -1,6 +1,6 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # Agent installation
@@ -28,8 +28,9 @@ Use the destination that the owner named.
 Otherwise, use an AI Memory folder in the current private workspace.
 Tell the owner the absolute path.
 If the workspace is a public template checkout, ask for a private destination.
-For Grok Bot, use its persistent private workspace.
-Explain that this destination is on the bot’s computer.
+For Grok Bot, use the desktop app to write to the owner’s computer.
+If the desktop app is not available, use the bot’s private workspace.
+Tell the owner which computer has the folder.
 
 If you cannot write files, explain which access is missing.
 Give the owner the ZIP link for their selected version.
@@ -50,6 +51,7 @@ The permitted destination names are:
 - `AGENTS.md`
 - `Start Here.md`
 - `_setup.md`
+- `About This Folder.md`
 - `CLAUDE.md`, for the Claude version only.
 
 Reject unexpected names, absolute destination paths, and parent-directory paths.
@@ -102,7 +104,7 @@ If setup is already complete, use the saved notes for the owner’s next task.
 
 ## Result
 
-A new installation contains three files, or four for Claude.
+A new installation contains four files, or five for Claude.
 It contains no subfolders.
 The installed AGENTS.md contains the full growth plan and core procedures.
 No later source download is required for the folder to grow.

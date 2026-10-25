@@ -1,12 +1,13 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # Start Here
 
-Grok Bot saves your notes on its computer.
-You can ask the bot for a copy.
+Your notes are in one folder on your computer.
+The Grok Bot desktop app can use that folder.
+A sync service keeps the same folder on the bot’s computer.
 The folder grows when you need more notes.
 
 ## Start
@@ -35,7 +36,7 @@ The bot uses your saved notes.
 - Save these meeting notes.
 - Run the morning check.
 - Reflect.
-- Send me a copy of my folder.
+- Check that my folder is in sync.
 
 ## Routines
 
@@ -46,6 +47,7 @@ App connections and routines are optional.
 
 ## Files
 
+About This Folder explains the folder and gives ideas to try.
 AGENTS.md contains lasting instructions for the assistant.
 _setup.md records setup progress.
 After your completion check, the bot removes _setup.md.

@@ -1,6 +1,6 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # Verification
@@ -13,8 +13,8 @@ Run `python3 build.py` after source changes.
 
 | Check | Required result |
 |---|---|
-| ChatGPT and Grok Bot starting files | Three files each |
-| Claude starting files | Four files, including CLAUDE.md |
+| ChatGPT and Grok Bot starting files | Four files each |
+| Claude starting files | Five files, including CLAUDE.md |
 | Starting subfolders | Zero in every version |
 | Manifest | Exact source paths and SHA-256 digests |
 | ZIP files | Starting files only, inside one AI Memory folder |

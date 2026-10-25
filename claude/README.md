@@ -1,12 +1,12 @@
 ---
 author: Codex
-updated: 2026-10-14
+updated: 2026-10-25
 ---
 
 # AI Memory for Claude
 
 Your notes stay in one folder on your computer.
-This version starts with 4 files and no subfolders.
+This version starts with 5 files and no subfolders.
 
 ## Start with your agent
 
