@@ -130,6 +130,15 @@ Use these counts for checks. Let useful work determine the number of files.
 
 Keep useful history as the file count grows.
 
+## Organize the owner's files
+
+Read `Where Things Are.md` before you find, save, or move owner files.
+Before you move or rename owner files, show a plan with each old and new location.
+Wait for the owner to approve the plan.
+Start with one small folder.
+Record each move in `Where Things Are.md`.
+Do not delete owner files.
+
 ## Interview me
 
 Read existing interview notes before you ask questions.

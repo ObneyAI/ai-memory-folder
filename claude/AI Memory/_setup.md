@@ -39,11 +39,11 @@ If access fails, give the platform instructions from Start Here.
 
 Use the interview procedure in AGENTS.md.
 If you already know the owner, start with a review of that knowledge.
-Tell the owner that you will review what you know about them.
-Name the sources: built-in memory, connected apps, and existing routines.
-Ask for permission before you examine them.
+Tell the owner that you will review your built-in memory about them.
+Ask for permission before you examine it.
 Present a draft as your current understanding, with its sources.
 Ask the owner to accept, change, or remove each item.
+Offer a second review of connected apps and routines as an option.
 Then ask only about missing, old, or uncertain facts.
 Ask one question at a time.
 Save the accepted profile in About Me.
@@ -55,6 +55,9 @@ Record unfinished answers here only if the owner wants to keep them.
 Read About This Folder.
 Ask how and where the owner saves files.
 Ask which folder you can explore.
+Reading files on the owner's computer can need approval for local access.
+If you do not have that access, skip the exploration.
+Do not describe a folder that you did not read.
 Read the folder and file names in that folder.
 Describe the structure that you find.
 Suggest up to three improvements.

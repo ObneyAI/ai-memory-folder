@@ -5,9 +5,9 @@ updated: 2026-10-25
 
 # Start Here
 
-Your notes are in one folder on your computer.
-The Grok Bot desktop app can use that folder.
-A sync service keeps the same folder on the bot’s computer.
+The recommended setup keeps your folder on your computer.
+A sync service keeps a copy on the bot’s computer.
+After installation, the bot tells you where your folder is.
 The folder grows when you need more notes.
 
 ## Start

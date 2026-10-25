@@ -9,8 +9,8 @@
         {
           "name": "AGENTS.md",
           "source": "claude/AI Memory/AGENTS.md",
-          "sha256": "5453a5bdf7f8c4ae6ef092d7f0cbfbe65a75f58f33b82d00a72209ec5428d477",
-          "bytes": 12520
+          "sha256": "06c2ebd0011b2241ffe2f2eb1cbf6321efe382a666c7667a378f63857635ac0e",
+          "bytes": 12845
         },
         {
           "name": "About This Folder.md",
@@ -33,8 +33,8 @@
         {
           "name": "_setup.md",
           "source": "claude/AI Memory/_setup.md",
-          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
-          "bytes": 3485
+          "sha256": "b3507d98be0b6b1142d5edfcd6fcf0851d19394c5cafe61c7ecd782ef3be298b",
+          "bytes": 3659
         }
       ]
     },
@@ -44,8 +44,8 @@
         {
           "name": "AGENTS.md",
           "source": "chatgpt/AI Memory/AGENTS.md",
-          "sha256": "ac45dac058e238019d8ec36e578a468f27b20207f4dfeba3b43bc052a69749cc",
-          "bytes": 12656
+          "sha256": "45d9dde262130237524be56bc555aabf1564ab460132691e87ca062a3b5cbccf",
+          "bytes": 12981
         },
         {
           "name": "About This Folder.md",
@@ -62,8 +62,8 @@
         {
           "name": "_setup.md",
           "source": "chatgpt/AI Memory/_setup.md",
-          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
-          "bytes": 3485
+          "sha256": "b3507d98be0b6b1142d5edfcd6fcf0851d19394c5cafe61c7ecd782ef3be298b",
+          "bytes": 3659
         }
       ]
     },
@@ -73,8 +73,8 @@
         {
           "name": "AGENTS.md",
           "source": "grokbot/AI Memory/AGENTS.md",
-          "sha256": "de21e5a9ea642daedafefe0bf5505955c8a66069a7368a324624299ae18f8c07",
-          "bytes": 13212
+          "sha256": "27e984eff73a6f8a557884925e5dae0e6944362ee1a317a982f77516687210e1",
+          "bytes": 13696
         },
         {
           "name": "About This Folder.md",
@@ -85,14 +85,14 @@
         {
           "name": "Start Here.md",
           "source": "grokbot/AI Memory/Start Here.md",
-          "sha256": "12c81c73de246ecc6e114e2f43b0de3680db9a86dde59158a4a7da9840fa03a5",
-          "bytes": 1480
+          "sha256": "fa3b1ce386a1a7e1fe07c1c92d1e55686974175bf2d181f42e44ce8f44f86a21",
+          "bytes": 1496
         },
         {
           "name": "_setup.md",
           "source": "grokbot/AI Memory/_setup.md",
-          "sha256": "538817a71749de4eee9b15f7a5ec016d49d3c50a01d57a426eb02efd834a4546",
-          "bytes": 3485
+          "sha256": "b3507d98be0b6b1142d5edfcd6fcf0851d19394c5cafe61c7ecd782ef3be298b",
+          "bytes": 3659
         }
       ]
     }

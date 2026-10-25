@@ -28,9 +28,10 @@ Use the destination that the owner named.
 Otherwise, use an AI Memory folder in the current private workspace.
 Tell the owner the absolute path.
 If the workspace is a public template checkout, ask for a private destination.
-For Grok Bot, use the desktop app to write to the owner’s computer.
-If the desktop app is not available, use the bot’s private workspace.
-Tell the owner which computer has the folder.
+For Grok Bot, ask to install on the owner’s computer.
+This needs the owner’s approval for local access.
+If the owner does not approve, use the bot’s private workspace.
+Tell the owner which location they have.
 
 If you cannot write files, explain which access is missing.
 Give the owner the ZIP link for their selected version.
