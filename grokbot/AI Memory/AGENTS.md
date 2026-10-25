@@ -2,7 +2,7 @@
 author: Codex
 kit_id: obney-ai-memory
 kit_variant: grokbot
-kit_version: 0.3.0
+kit_version: 0.3.1
 updated: 2026-10-25
 source: Claude Code kit; Grok Bot kit; Codex kit; Justin’s progressive setup design
 ---
@@ -110,6 +110,7 @@ Do not create empty folders or blank notes to reach a file count.
 | `People/Name.md` | The owner wants a record for a person | Relationship, context, last contact, open items |
 | `Organizations/Name.md` | The owner wants a record for a group | Relationship, contacts, context, open items |
 | `Where Things Are.md` | The owner agrees how and where they save files | Main folders, naming rules, agreed changes, file moves |
+| `How I'm Set Up.md` | You learn the first lasting fact about the owner's setup | Folders, Connectors, Credential names, Email and calendar, Routines, Still open |
 | `Inbox/Date - Topic.md` | Material must wait for review | Source, supplied notes, next action |
 | `Log/Daily/Date.md` | There is daily work to record | Today, Notes, Meetings, Done |
 | `Log/Meetings/Date - Topic.md` | The owner supplies meeting information | Participants, source, decisions, actions, open questions |
@@ -138,6 +139,44 @@ Wait for the owner to approve the plan.
 Start with one small folder.
 Record each move in `Where Things Are.md`.
 Do not delete owner files.
+
+## Keep the setup map
+
+`How I'm Set Up.md` is the setup map.
+It shows how the owner's folders, apps, accounts, and routines are set up.
+A later helper, such as a coach, can read it instead of past chats.
+Keep it short enough to scan.
+
+Create the setup map when you learn the first lasting setup fact.
+Update it when a fact in the map changes.
+Use these headings: Folders, Connectors, Credential names, Email and calendar, Routines, and Still open.
+Leave out empty sections.
+Do not add rows for facts that you did not learn.
+
+Under Folders, record each AI Memory path and its sync service.
+If the folder has more than one copy, record the computer for each copy.
+Link to Where Things Are for file organization when that note exists.
+Do not copy its folder lists into the setup map.
+
+Under Connectors, give each app connection one row.
+Use these columns: Service, Account, Purpose, Status, and Checked.
+Use the owner's label for the account, such as "work" or an email address.
+Use one of these statuses: connected, read-only, drafts only, or needs sign-in.
+Under Email and calendar, record each mailbox and calendar that you can use.
+
+Under Credential names, record only the name of each saved login and where it is kept.
+For example: "Bank login, in 1Password."
+Never write a password, access code, token, card number, or other secret value in the folder.
+If the owner gives you a secret value, do not save it.
+Tell the owner that you did not save it.
+
+Under Routines, record the name, schedule, and the notes and apps that each routine uses.
+Under Still open, record items that the owner skipped or refused.
+
+Record a connection only after you examine it or the owner confirms it.
+In the Checked column, write the date and "examined" or "owner confirmed".
+The owner can read and change every line.
+If the owner changes a line, use their version.
 
 ## Interview me
 
@@ -260,6 +299,7 @@ Keep one working folder for the owner’s notes.
 Find out whether that folder already uses a sync service before you add one.
 Use only one sync service for the folder.
 Do not assume that chat sync copies local files.
+Record each folder path and the sync service in the setup map.
 
 Examine the destination before you copy personal notes.
 Make sure that the copy is complete before you report success.
@@ -271,6 +311,7 @@ If copies conflict, keep their unique content until the owner agrees on a merged
 Remove `_setup.md` only after the owner accepts the setup completion check.
 First, save all accepted facts and lasting preferences outside `_setup.md`.
 Resolve or move every unfinished setup item.
+Record skipped setup items under Still open in the setup map.
 Keep the growth plan and core procedures in this file.
 
 Update Start Here with links to notes that actually exist.
@@ -295,6 +336,7 @@ The recommended folder is on the owner’s computer, with a synced copy on the b
 Access to the owner’s computer needs the owner’s approval.
 If the folder is only on the bot’s computer, tell the owner.
 Tell the owner the path of each copy.
+Record each path in the setup map.
 To test sync, add a dated line to a note on one computer.
 Find that line on the other computer before you say that sync works.
 If the line does not appear, report that sync does not work.
@@ -312,6 +354,7 @@ Show its proposed prompt and schedule for approval.
 
 Use supported routine tools to create the approved routine.
 Make sure that the saved routine exists.
+Then record the routine in the setup map.
 A scheduled reflection can save a draft without an immediate reply.
 Keep the draft marked `not yet reviewed` until the owner responds.
 

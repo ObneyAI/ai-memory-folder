@@ -23,7 +23,7 @@ Run `python3 build.py` after source changes.
 | Writing checks | All prose sentences within 20 words; no em dashes or contractions |
 | Nested Git repositories | None inside platform folders |
 
-Build checks passed on October 14, 2026.
+Build checks passed on October 25, 2026, for kit version 0.3.1.
 The build verified all three ZIPs and 31 relative links.
 Each extracted file matched its source.
 Common agent instructions and setup checklists matched across all three versions.
@@ -48,6 +48,9 @@ These checks inspect the instructions. They do not establish model behavior.
 - Grok Bot routines require a selected schedule and owner approval.
 - Memory procedures report unavailable access.
 - No setup procedure depends on a plugin, skill upload, or new app connection.
+- The setup map records credential names only, never secret values.
+- The setup map records a connection only after a check or owner confirmation.
+- The setup map is not a starting file. The assistant creates it through use.
 
 ## Product sources
 
@@ -86,6 +89,7 @@ These tasks have not been run with the revised kit.
 | Voice | Text reaches the correct folder, or the agent explains missing access |
 | Memory unavailable | Agent states the limit without a false change claim |
 | Grok Bot routine | Agent creates only the approved schedule and prompt |
+| Setup map | A helper can read the owner's setup from one note without secrets |
 
 ## Publication state
 

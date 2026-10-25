@@ -9,6 +9,11 @@ This file tracks setup across sessions.
 The assistant updates the checklist after it examines each result.
 The owner can stop at any step.
 
+Some steps find folder paths, app connections, accounts, or routines.
+Record each accepted fact in `How I'm Set Up.md`.
+Use the setup map procedure in AGENTS.md.
+You do not need to fill every section during setup.
+
 ## Progress
 
 - [ ] Make sure that you can read this folder.
@@ -44,6 +49,7 @@ Ask for permission before you examine it.
 Present a draft as your current understanding, with its sources.
 Ask the owner to accept, change, or remove each item.
 Offer a second review of connected apps and routines as an option.
+Save accepted app, account, and routine facts in the setup map.
 Then ask only about missing, old, or uncertain facts.
 Ask one question at a time.
 Save the accepted profile in About Me.
@@ -62,6 +68,7 @@ Read the folder and file names in that folder.
 Describe the structure that you find.
 Suggest up to three improvements.
 Save the agreed system in `Where Things Are.md`.
+Do not copy that system into the setup map.
 Move or rename files only after the owner approves a plan.
 The owner can skip this step.
 
@@ -95,6 +102,7 @@ Their agreement permits removal of this setup file after the checks below.
 Follow the Complete setup procedure in AGENTS.md.
 Move accepted facts into the notes that own them.
 Resolve or move unfinished items.
+Record skipped items under Still open in the setup map.
 Update Start Here for the notes and routines that exist.
 
 Make sure that no permanent instruction depends on this file.

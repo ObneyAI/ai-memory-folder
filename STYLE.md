@@ -44,6 +44,9 @@ These terms name objects and processes in this kit.
 | Memory | Information retained by an assistant outside these notes |
 | Sync | Service that copies file changes between devices |
 | Manifest | File list with source paths and content digests |
+| Setup map | The note `How I'm Set Up.md`, which shows how the owner's setup works |
+| Connector | App connection that the assistant can use |
+| Credential name | Name of a saved login, without its secret value |
 
 Use file, folder, app, chat, ZIP, Markdown, and SHA-256 as computing terms.
 Use save, copy, download, upload, extract, update, and delete for their computing operations.
